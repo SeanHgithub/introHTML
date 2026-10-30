@@ -1,0 +1,16 @@
+html,
+body,
+* {
+  font-size: 10px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.box {
+    height: 30rem;
+    width: 25%;
+    background-color: red;
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+}
