@@ -1,3 +1,4 @@
+@import url('https://googleapis.com');
 html,
 body,
 * {
@@ -7,8 +8,68 @@ body,
   padding: 0;
 }
 body {
-  background-color: #1d232a;
-  font-family: ui-sans-serif, system-ui, sans-serif;
+  background-color: #1d232a;                  
+  font-family: 'JetBrains Mono', monospace;   
+  color: #f3f4f6; 
+}
+.hero {
+  background-color: aqua;
+  color: #d81919;
+  height:60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+.hero h1 {
+  font-size: 4rem;
+  color: #1d232a;
+  margin-bottom: 0.5rem;
+}
+.hero h2 {
+  font-size: 2rem;
   font-weight: 400;
-  font-style: normal;
+  margin-bottom: 3rem;
+  color: #1d232a;
+}
+.hero-img {
+  width: 18rem;
+  height: 18rem;
+  border: 0.3rem solid black;
+  margin-bottom: 2.5rem;
+}
+.hero-paragraph {
+  font-size: 1.6rem;
+  max-width: 55rem;
+  margin-bottom: 3rem;
+}
+.hero button {
+  background-color: antiquewhite;
+  padding: 1.2rem 2.4rem;
+  color: #1d232a;
+}
+section {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+section h3 {
+  font-size: 2rem;
+  color: aquamarine;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+section ul {
+  padding-left: 2.5rem;
+  margin-bottom: 1rem;
+}
+section ol {
+  padding-left: 2.5rem;
+  margin-bottom: 1rem;
+}
+section li {
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
 }
