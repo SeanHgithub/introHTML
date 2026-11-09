@@ -15,13 +15,12 @@ body {
 .dog {
   background-color: aqua;
   color: #d81919;
-  height:60vh;
-  display: flex;
-  flex-direction: column;
+  height: 20rem;
+  width: 30rem;
   align-items: center;
-  justify-content: left;
   text-align: center;
   padding: 3rem 2rem;
+  margin: 2rem;
 }
 .dog-name h1 {
   font-size: 4rem;
