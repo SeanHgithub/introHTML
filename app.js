@@ -35,7 +35,11 @@ function inject(dog) {
     `<div class="card">
         <h2 class="card-header">${dog.name}</h2>
         <img src="${dog.img}" alt="" />
-        <p>filler filler filler</p>
+        <p class="card-p">
+           Price: ${dog.price}
+           Age: ${dog.age}
+           Breed: ${dog.breed}</p>
       </div> `,
   );
 }
+inject(dogs[0]);
